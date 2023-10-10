@@ -4,7 +4,8 @@ The following repository was created to host class exercise 02 from Game AI less
 
 The main objective of this exercise was to implement an AI algorithm called **Flocking**. To do so, we used Unity game engine in its **2021.3.14f1 version** and some free assets from the Unity Assets Store and then we implemented the algorithm using C# Unity scripts.
 
-Click [here]() to watch the showcase video of Exercise 02: Flocking.
+Click [here](https://youtu.be/CVw9BGWIF2g?si=-KlBVK6gXUwPLykl) to watch the showcase video of Exercise 02: Flocking.
+
 
 ## Repository Link
 Click [here](https://github.com/RylanJGraham/GameAI_Exercise02_Flocking) to check out our Github repository. You can find the Unity project folder and a small showcase video inside of it.
