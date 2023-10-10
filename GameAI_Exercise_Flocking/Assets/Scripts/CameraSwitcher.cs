@@ -75,6 +75,8 @@ public class CameraSwitcher : MonoBehaviour
 
         // Enable the new active camera
         activeCamera.enabled = true;
+
+        Time.timeScale = 1f;
     }
 
     private void OpenMenu()
