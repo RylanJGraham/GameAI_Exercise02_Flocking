@@ -4,7 +4,8 @@ public class CameraSwitcher : MonoBehaviour
 {
     public Camera topDownCamera; // Reference to the top-down camera (assigned to "1" key)
     public Camera camera2;       // Reference to camera 2 (assigned to "2" key)
-    public Camera camera3;       // Reference to camera 3 (assigned to "3" key)
+    public Camera camera3;
+    public Camera camera4;       // Reference to camera 3 (assigned to "3" key)
     public Camera menuCamera;    // Reference to the menu camera (assigned to "Escape" key)
     public GameObject menuCanvas; // Reference to the UI menu Canvas
 
@@ -20,6 +21,7 @@ public class CameraSwitcher : MonoBehaviour
         camera2.enabled = false;
         camera3.enabled = false;
         menuCamera.enabled = false;
+        camera4.enabled = false;
 
         // Ensure the menu starts as closed
         CloseMenu();
@@ -39,6 +41,10 @@ public class CameraSwitcher : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             SwitchToCamera(camera3);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SwitchToCamera(camera4);
         }
 
         // Check for the "Escape" key press
